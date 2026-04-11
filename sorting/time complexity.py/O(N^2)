@@ -1,0 +1,8 @@
+def quadartic_time(n):
+    print("\n0(n^2)-quadratic timme example")
+    for i in range(n):
+        for j in range(n):
+            print(f"({i},{j})",end=" ")
+        print()
+n=int(input("enter the value of n:"))
+quadartic_time(n)
