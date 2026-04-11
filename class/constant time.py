@@ -1,0 +1,1 @@
+def constant_time(arr):
