@@ -1,0 +1,12 @@
+s = "akash"
+char_count = {}  # empty dictionary 
+
+for char in s :
+    if char in char_count:
+        char_count[char] += 1
+    else:
+     char_count[char] = 1
+ 
+print("character occurrences:")
+for char, count in char_count.items():
+    print(f"{char} : {count}")
